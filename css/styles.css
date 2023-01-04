@@ -1,0 +1,121 @@
+                    @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/pizz.jpg);
+  background-position: center center;
+  background-size: cover;
+  color: white; /*
+    overflow-x: hidden  ;*/
+}
+.nav {
+    opacity: 0.5;
+  height: 100px;
+}
+
+.brand {
+  font-weight: 500 !important;
+  font-size: 45px;
+  color: black;
+}
+
+nav a {
+  font-weight: 500;
+}
+
+div nav a:hover {
+  text-decoration: none;
+}
+
+.btn-nav {
+  color: black;
+  border: 1px solid black;
+}
+
+.btn-nav:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid;
+  transition: all 1s ease-in-out;
+  transform: scale(0.97);
+  box-shadow: none;
+}
+
+.image-div {
+  z-index: 5;
+}
+
+.mForm {
+  padding-top: 70px;
+  padding-left: -10;
+}
+
+form#contact-form::-webkit-input-placeholder {
+ 
+  color: white;
+}
+
+form#contact-form :-ms-input-placeholder {
+
+  color: white;
+}
+
+form#contact-form ::placeholder {
+  color: white;
+}
+
+.isInput,
+.isInput:focus {
+  background-color: transparent;
+  color: #fff
+}
+
+
+.isInput,
+.isInput:focus {
+  background-color: transparent;
+  color: #fff
+}
+  
+
+#rights{
+  margin-left: 500px;
+  margin-top: 300px;
+
+}
+@media only screen and (max-width: 600px) {
+  .nav {
+    opacity: 0.5;
+  height: 100px;
+}
+
+.brand {
+  font-weight: 500 !important;
+  font-size: 45px;
+  color: black;
+}
+
+nav a {
+  font-weight: 500;
+}
+
+div nav a:hover {
+  text-decoration: none;
+}
+
+.btn-nav {
+  color: black;
+  border: 1px solid black;
+}
+}
+ 
+
+
+@media only screen and (min-width: 600px) {}
+
+
+@media only screen and (min-width: 768px) {}
